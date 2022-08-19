@@ -35,6 +35,7 @@ body {
     display: inline-block;
     margin-right: 25px;
     margin-top: 10px;
+    position: relative;
 }
 
 .ul1 li a {
@@ -61,7 +62,6 @@ nav.navigation a.hov::after {
     display: block;
     background: blue;
 }
-
 
 .drop_down {
     position: absolute;
