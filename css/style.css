@@ -62,37 +62,6 @@ nav.navigation a.hov::after {
     display: block;
     background: blue;
 }
-
-.drop_down {
-    position: absolute;
-}
-
-.drop_down ul li {
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 100px;
-    padding: 11px;
-    background-color: #183a9d;
-    margin-left: -15px;
-}
-
-.drop_down {
-    position: absolute;
-    top: 0%;
-    left: 0;
-    text-align: center;
-    visibility: hidden;
-}
-
-.block_d:hover .drop_down {
-    visibility: visible;
-    cursor: pointer;
-    transition: 2s;
-    height: 100%;
-}
-
 .slider {
     width: 100vw;
     height: 100vh;
